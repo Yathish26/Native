@@ -2,6 +2,19 @@
   "expo": {
     "name": "Start",
     "slug": "Start",
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "platforms": [
+      "android",
+      "ios"
+    ],
+    "android": {
+      "package": "com.yourcompany.calculator"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "9dcab5b1-0f94-4320-9b5a-ca441ed6aaea"
+      }
+    }
   }
 }
